@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- start navbar -->
+    <section class="">
+        <div
+            class="bg-[#12080839] absolute top-[168px] border-l-1  border-[#cdcaca8d] h-[686px] text-white   pt-[50px]  px-[40px] z-3000 w-[150px]  hidden md:flex overflow-hidden">
+            <div class=" flex flex-col gap-[30px]  items-center ">
+
+
+                <a href=""> <i class="fa-brands fa-facebook-f hover:text-[#820008] text-3xl font-bold"></i></a>
+
+                <a href=""><i class="fa-solid fa-x hover:text-[#820008] text-3xl"></i></a>
+                <a href=""><i class="fa-brands fa-youtube hover:text-[#820008] text-3xl font-bold "></i></a>
+                <a href=""><i class="fa-brands fa-linkedin hover:text-[#820008]  text-3xl font-bold"></i></a>
+                <a href=""><i class="fa-brands fa-instagram hover:text-[#820008] text-3xl font-bold"></i></a>
+            </div>
+        </div>
+
+        <nav
+            class="bg-[#12080872]  border-b-1  border-[#cdcaca8d] dark:border-gray-600  dark:bg-gray-900  w-full md:h-[170px] h-[90px]  px-[50px] absolute z-[5000] ">
+
+
+            <div class="flex flex-nowrap md:flex-wrap justify-between items-center  ">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" class="translate-y-[-30px] md:w-[220px] w-[100px] mt-5 md:mt-0"
+                        alt=""> </a>
+
+                <!-- قسم الموبايل للبار         -->
+                <button data-collapse-toggle="mega-menu-full" type="button"
+                    class="
+                     p-2 w-10 h-10 mb-6   justify-center text-sm text-gray-500 rounded-lg md:hidden bg-[#820008] hover:text-white  focus:outline-none  dark:text-gray-400 dark:hover:bg-[#820008] "
+                    aria-controls="mega-menu-full" aria-expanded="false">
+                    <i class="fa-solid fa-bars-staggered "></i>
+
+
+
+                </button>
+                <div id="mega-menu-full"
+                    class=" absolute top-[70px] right-[-200px] text-center   font-medium hidden flex items-center justify-center mt-2 w-[900px] px-[200px] mx-auto ">
+                    <ul
+                        class=" md:hidden flex  items-center mt-4 border border-gray-100 rounded-lg bg-[#1208085d]  rtl:space-x-reverse     dark:border-gray-700">
+                        <li>
+                            <a href="index.html"
+                                class="block py-2 px-3  text-white rounded-sm  md:hover:bg-transparent  hover:bg-white md:p-0 dark:text-white   hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                                aria-current="page">الرئيسية</a>
+                        </li>
+
+                        <li>
+                            <button id="toggleButton" data-collapse-toggle="mega-menu-full-dropdown1"
+                                class=" flex items-center justify-between w-full py-2 px-3  text-white rounded-sm md:w-auto hover:bg-gray-100   hover:text-blue-600  dark:text-white  dark:hover:bg-gray-700 dark:hover:text-blue-500  dark:border-gray-700">أصنافنا
+                                <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 4 4 4-4" />
+                                </svg></button>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3  text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent hover:text-blue-600  md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">من
+                                نحن؟</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3  text-white rounded-sm hover:text-blue-600  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">تواصلوا
+                                معنا</a>
+                        </li>
+
+                        <li>
+                            <a href="">
+
+                                <button id="theme-toggle1" type="button"
+                                    class="text-gray-500 dark:text-gray-400 bg-white hover:bg-[#820008]  dark:bg-slate-700 dark:hover:bg-[#820008] focus:outline-none  rounded-lg text-sm p-1 mx-2 md:hidden flex">
+                                    <svg id="theme-toggle-dark-icon1" class="hidden w-5 h-5" fill="currentColor"
+                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                                        </path>
+                                    </svg>
+                                    <svg id="theme-toggle-light-icon1" class="hidden w-5 h-5" fill="currentColor"
+                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                            fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="mega-menu-full-dropdown1"
+                    class="hidden  bg-[#12080839]  absolute left-[80px] top-[140px] w-[400px]  h-[160px] border brder-b-1 border-b-[#cdcaca8d] shadow-xs  mb-2   "
+                    id="myElement">
+                    <div class="flex   px-4  pb-3  text-gray-900 dark:text-white  h-[780px] justify-evenly">
+                        <ul class="p-3">
+                            <li>
+                                <a href="category.html"
+                                    class="block my-2  rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out  text-white font-bold ">
+                                    <div class="font-semibold">السلطات الصحية </div>
+                                    <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                tools that you're already using.</span> -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="category.html"
+                                    class="block my-2  rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out  text-white font-bold ">
+                                    <div class="font-semibold">الفطور </div>
+                                    <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                tools that you're already using.</span> -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="category.html"
+                                    class="block   my-2  rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out  text-white font-bold ">
+                                    <div class="font-semibold"> مأكولات الأطفال </div>
+                                    <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                tools that you're already using.</span> -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="category.html"
+                                    class="block   my-2  rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out  text-white font-bold ">
+                                    <div class="font-semibold">الأسماك البحرية </div>
+                                    <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                tools that you're already using.</span> -->
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="p-3">
+                            <li>
+                                <a href="category.html"
+                                    class="block my-2 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out  text-white font-bold ">
+                                    <div class="font-semibold">الستيك بأنواعه </div>
+                                    <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                tools that you're already using.</span> -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="category.html"
+                                    class="block my-2 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out  text-white font-bold ">
+                                    <div class="font-semibold">الحبويات الصحية </div>
+                                    <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                tools that you're already using.</span> -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="category.html"
+                                    class="block my-2 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out text-white font-bold ">
+                                    <div class="font-semibold"> المكسرات الصحية </div>
+                                    <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                tools that you're already using.</span> -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="category.html"
+                                    class="block my-2rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out text-white font-bold ">
+                                    <div class="font-semibold"> المشروبات الصحية </div>
+                                    <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                tools that you're already using.</span> -->
+                                </a>
+                            </li>
+                            <!-- <li>
+                        <a href="">
+
+                            <button id="theme-toggle" type="button"
+                                class="text-gray-500 dark:text-gray-400 bg-white hover:bg-[#820008]   md:flex hidden dark:bg-white dark:hover:bg-[#820008] focus:outline-none  rounded-lg text-sm p-1 mx-2">
+                                <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                                    </path>
+                                </svg>
+                                <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                        fill-rule="evenodd" clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+
+
+
+                        </a>
+                    </li> -->
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <!--   نهاية قسم الموبايل للبار         -->
+                <div
+                    class=" translate-y-[-17px]  items-center justify-between font-medium hidden w-full md:flex md:w-auto md:order-1 ">
+                    <ul
+                        class=" flex flex-col items-center md:py-5 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#820009db] dark:bg-slate-100 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="index.html"
+                                class="block py-2 px-3 text-2xl text-white rounded-sm  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                                aria-current="page">الرئيسية</a>
+                        </li>
+                        <li>
+                            <button id="toggleButton" data-collapse-toggle="mega-menu-full-dropdown"
+                                class=" flex items-center justify-between w-full py-2 px-3 text-2xl text-white rounded-sm md:w-auto
+                                 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white
+                                  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">أصنافنا
+                                <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 4 4 4-4" />
+                                </svg></button>
+                        </li>
+
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-2xl text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">من
+                                نحن؟</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-2xl text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">تواصلوا
+                                معنا</a>
+                        </li>
+
+                        <li>
+                            <a href="">
+
+                                <button id="theme-toggle" type="button"
+                                    class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-[#820008] focus:outline-none  rounded-lg text-sm p-2.5 mx-2">
+                                    <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor"
+                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                                        </path>
+                                    </svg>
+                                    <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor"
+                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                            fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="mega-menu-full-dropdown"
+                class="hidden overflow-hidden   absolute right-[150px] top-[170px] w-[1370px] h-[686px] border brder-b-1 border-b-[#cdcaca8d] shadow-xs  bg-gray-50 md:bg-[#12080872]    "
+                id="myElement">
+                <div
+                    class="grid  px-4   text-gray-900 dark:text-white sm:grid-cols-2 md:px-6 h-[780px] text-center mt-[50px]">
+                    <ul>
+                        <li>
+                            <a href="category.html"
+                                class="block p-3 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px] transition-all ease-in-out  text-white font-bold text-4xl">
+                                <div class="font-semibold"> السلطات الصحية</div>
+                                <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                    tools that you're already using.</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="category.html"
+                                class="block p-3 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px]  transition-all ease-in-out text-white font-bold text-4xl">
+                                <div class="font-semibold">الأسماك البحرية </div>
+                                <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                    tools that you're already using.</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="category.html"
+                                class="block p-3 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px]  transition-all ease-in-out text-white font-bold text-4xl">
+                                <div class="font-semibold">الستيك بأنواعه </div>
+                                <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                    tools that you're already using.</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="category.html"
+                                class="block p-3 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px]  transition-all ease-in-out text-white font-bold text-4xl">
+                                <div class="font-semibold"> مأكولات الأطفال </div>
+                                <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                    tools that you're already using.</span> -->
+                            </a>
+                        </li>
+
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="category.html"
+                                class="block p-3 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px] transition-all ease-in-out  text-white font-bold text-4xl">
+                                <div class="font-semibold">الفطور </div>
+                                <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                    tools that you're already using.</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="category.html"
+                                class="block p-3 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px]  transition-all ease-in-out text-white font-bold text-4xl">
+                                <div class="font-semibold">المشروبات الصحية </div>
+                                <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                    tools that you're already using.</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="category.html"
+                                class="block p-3 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px]  transition-all ease-in-out text-white font-bold text-4xl">
+                                <div class="font-semibold">الحلويات الصحية </div>
+                                <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                    tools that you're already using.</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="category.html"
+                                class="block p-3 rounded-lg  hover:underline decoration-[#820008] underline-offset-[10px]  transition-all ease-in-out text-white font-bold text-4xl">
+                                <div class="font-semibold"> المكسرات الصحية </div>
+                                <!-- <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party
+                                    tools that you're already using.</span> -->
+                            </a>
+                        </li>
+
+
+
+
+                        <li>
+                            <a href="">
+
+                                <button id="theme-toggle" type="button"
+                                    class="text-gray-500 dark:text-gray-400 bg-white hover:bg-[#820008] md:flex hidden dark:bg-white dark:hover:bg-[#820008] focus:outline-none  rounded-lg text-sm p-1 mx-2">
+                                    <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor"
+                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                                        </path>
+                                    </svg>
+                                    <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor"
+                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                            fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+
+
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+
+
+
+        <video id="myVideo" autoplay muted loop style="height: 100%; width: 100%;">
+
+            <source src="assets/videos/farm market (1) (1) (1).mp4" type="video/mp4">
+
+
+        </video>
+
+
+
+
+
+
+
+    </section>
+    <!-- end navbar -->
+    <!-- start features -->
+    <section
+        class="features h-[90vh] mb-[300px]  dark:bg-gradient-to-b  dark:from-slate-700 dark:to-white  bg-gradient-to-b from-orange-200 to-white md:mb-0 overflow-hidden ">
+        <h2 class="text-3xl font-bold text-center text-[#830008] dark:text-[#fec45c] pt-7 italic">لماذا عليكم أن تختاروا
+            مطعمنا.....</h2>
+        <div class=" max-w-screen-xl max-auto flex flex-col-reverse md:flex-row items-cente ">
+            <div class="feature justify-evenly items-center gap-5 mx-[30px] md:mt-7  ">
+
+                <div class="bg-gray-200 pl-3 w-fit h-fit  hover:scale-[1.07] transition-all ease-in-out cursor-pointer mb-3"
+                    style="box-shadow: 1px 1px 3px red , -1px -1px 3px blue; ">
+                    <p class="text-[20px]  font-medium  md:leading-4 md:mr-3 mr-0 inline-block my-[10px] pr-2 md:pr-0 ">
+                        <span class="text-2xl text-blue-700">الصحة:</span>
+                        توفر الأغذية العضوية مواد غذائية خالية من المبيدات الحشرية والمواد الكيميائية لذلك
+                        أكثر صحة للجسم
+                    </p>
+                </div>
+                <div class="bg-gray-200 pl-3 w-fit h-fit  hover:scale-[1.07] transition-all ease-in-out cursor-pointer mb-3 md:translate-x-[-50px] "
+                    style="box-shadow: 1px 1px 3px red , -1px -1px 3px blue;">
+                    <p class="text-[20px]  font-medium md:leading-4 md:mr-3 mr-0 inline-block my-[10px] pr-2 md:pr-0 ">
+                        <span class="text-2xl text-blue-700">الطعم والنكهة:</span>
+                        العديد من الأشخاص يعتقدون أن الأغذية العضوية لها نكهة أفضل بسبب الطريقة التي تُزرع
+                        بها.
+                    </p>
+                </div>
+                <div class="bg-gray-200 pl-3 w-fit h-fit  hover:scale-[1.07] transition-all ease-in-out cursor-pointer mb-3"
+                    style="box-shadow: 1px 1px 3px red , -1px -1px 3px blue; ">
+                    <p class="text-[20px]  font-medium  md:leading-4 md:mr-3 mr-0 inline-block my-[10px]  pr-2 md:pr-0">
+                        <span class="text-2xl text-blue-700"> الوعي الغذائي:</span>
+
+                        يؤمن البعض أن الأغذية العضوية يمكن أن تكون أقل تعرضاً للمواد المضافة الضارة
+                    </p>
+                </div>
+                <div class="bg-gray-200 pl-3 w-fit h-fit  hover:scale-[1.07] transition-all ease-in-out cursor-pointer mb-3 md:translate-x-[-50px]"
+                    style="box-shadow: 1px 1px 3px red , -1px -1px 3px blue; ">
+                    <p class="text-[20px]  font-medium md:leading-4 md:mr-3 mr-0 inline-block my-[10px] pr-2 md:pr-0 ">
+                        <span class="text-2xl text-blue-700">
+
+                            أسلوب حياة صحي :</span>
+
+                        يعتبر تناول الطعام العضوي جزءاً من أسلوب حياة متوازن وصحي يتضمن ممارسة
+                        الرياضة والتخلص من العادات السيئة.
+                    </p>
+                </div>
+
+                <div class="bg-gray-200 pl-3 w-fit h-fit  hover:scale-[1.07] transition-all ease-in-out cursor-pointer mb-3"
+                    style="box-shadow: 1px 1px 3px red , -1px -1px 3px blue; ">
+                    <p class="text-[20px]  font-medium  md:leading-4 md:mr-3 mr-0 inline-block my-[10px] pr-2 md:pr-0 ">
+                        <span class="text-2xl text-blue-700">البيئة :</span>
+
+                        الزراعة العضوية تدعم ممارسات أكثر استدامة، مما يقلل من الأثر البيئي ويساهم في الحفاظ على التربة
+                        والمياه.
+                    </p>
+                </div>
+
+
+                <div class="flex  justify-center mt-4 md:mr-[30px] ">
+
+                    <button
+                        class="btn text-2xl text-white  w-[60%]  bg-gradient-to-b from-[#F05F57]  to-[#360940]  hover:bg-clip-text hover:scale-[1.7] transition-all ease-in-out hover:text-transparent hover:text-3xl">اقرأالمزيد</button>
+                </div>
+
+            </div>
+            <div
+                class="shapes relative md:w-[1/2] w-[60%] md:flex hidden md:justify-end text-center items-center mr-[100px] md:mr-0 mb-[50px] md:mb-0  ">
+                <img src="assets/images/shapes.png"
+                    class="shape-img  md:w-[150px] w-[90px]  object-cover overflow-hidden absolute md:top-[300px] md:left-[-230px] left-[-70px] top-[100px]"
+                    alt="">
+
+                <img src="assets/images/features1.jpg"
+                    class="md:w-[1600px] md:h-[400px]  rounded-[40px] w-[100%] h-[100%] object-cover md:translate-y-[40px]  md:translate-x-[-70px]  translate-x-[50px]  mt-5 md:mt-0  "
+                    alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end features -->
+
+    <!-- start categories -->
+    <section class="categories md:h-[90vh] h-[1550px] overflow-hidden  bg-gradient-to-l from-[#c1b887] via-[#f2f2f2 via[#DBDBDB] to-[#774b4bb3] dark:bg-gradient-to-l from-[#b8c8e0] dark:via-[#7899cc] dark:to-[#6d7ec8]
+    ] overflow-hidden">
+        <h2 class="text-4xl font-bold text-center text-[#830008] dark:text-[#fec45c] pt-7 italic">
+            أهم أصنافنا...
+        </h2>
+        <div class="categry max-w-screen max-auto grid md:grid-cols-3 grid-cols-1  mt-7 mx-3">
+
+
+            <div class="dishes1 flex flex-col-2 flex-wrap md:flex-col md:mr-[200px] mr-[100px]">
+                <div>
+
+                    <div class="flex mr-10 items-center gap-3">
+                        <a href="category.html" target="_blank">
+                            <img src="assets/images/salat.jpg" style="width: 100px; height: 100px;"
+                                class=" rounded-full object-cover border-2 border-red-600   hover:sepia hover:scale-[1.2] transition-all ease-in-out"
+                                alt="">
+                        </a>
+                        <h2 class="text-xl text-red-700 font-bold">السلطات الصحية</h2>
+
+                    </div>
+                    <div class="flex ml-20 items-center gap-3 mt-3">
+
+                        <h2 class="text-xl text-red-700 font-bold"> الأسماك البحرية</h2>
+                        <a href="category.html" target="_blank">
+
+                            <img src="assets/images/أسماك بحرية.jpg" style="width: 100px; height: 100px;"
+                                class=" rounded-full object-cover border-2 border-red-600  hover:sepia hover:scale-[1.2] transition-all ease-in-out"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+                <div>
+
+                    <div class="flex mr-10 items-center gap-3 mt-3">
+                        <a href="category.html" target="_blank">
+
+                            <img src="assets/images/ستيك.jpg" style="width: 100px; height: 100px;"
+                                class=" rounded-full object-cover border-2 border-red-600  hover:sepia hover:scale-[1.2] transition-all ease-in-out"
+                                alt="">
+                        </a>
+                        <h2 class="text-xl text-red-700 font-bold"> الستيك بأنواعه</h2>
+                    </div>
+                    <div class="flex mr-10 items-center gap-3 mt-3">
+                        <h2 class="text-xl text-red-700 font-bold"> الفطور</h2>
+                        <a href="category.html" target="_blank">
+                            <img src="assets/images/الفطور.avif" style="width: 100px; height: 100px;"
+                                class=" rounded-full object-cover border-2 border-red-600  hover:sepia hover:scale-[1.2] transition-all ease-in-out"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div
+                class="img-dishes mt-7 flex justify-center items-center relative w-full  rounded-[15px]   bg-rose-50 md:px-8 pl-2 mx-auto overflow-hidden">
+                <img src="assets/images/strars.png"
+                    class="w-[200px]  h-[200px] absolute top-[100px] right-[300px] animate-one" alt="">
+                <img style="width: 500px; height: 500px;" style="width: 100px; height: 100px;"
+                    class="ml-10 md:translate-x-10  rounded-[15px] object-cover " src="assets/images/chef (1).png"
+                    alt="">
+                <!-- <img src="assets/images/check.png"
+                    class=" md:w-[100px]  md:h-[100px] w-[80px] absolute top-[180px] right-[380px] animate-pulse " alt="">
+                <img src="assets/images/tea.png"
+                    class="w-[100px]  h-[100px] absolute top-[350px] right-[-10px] animate-pulse mr-3 " alt=""> -->
+            </div>
+            <div class="dishes2 flex flex-col-2 flex-wrap md:flex-col mr-[100px] md:mt-0 mt-4">
+                <div>
+
+                    <div class="flex items-center gap-3 mb-3 ml-10">
+                        <h2 class="text-xl text-red-700 font-bold"> المشروبات الصحية</h2>
+                        <a href="category.html" target="_blank">
+
+                            <img src="assets/images/مشروبات صحية.avif" style="width: 100px; height: 100px;"
+                                class=" rounded-full object-cover border-2 border-red-600  hover:sepia hover:scale-[1.2] transition-all ease-in-out"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="flex items-center gap-3 mb-3 ml-10">
+                        <a href="category.html" target="_blank">
+
+                            <img src="assets/images/حلويات.jpg" style="width: 100px; height: 100px;"
+                                class=" rounded-full object-cover border-2 border-red-600 hover:sepia hover:scale-[1.2] transition-all ease-in-out"
+                                alt="">
+                        </a>
+                        <h2 class="text-xl text-red-700 font-bold">الحلويات الصحية</h2>
+                    </div>
+                </div>
+                <div>
+
+                    <div class="flex items-center gap-3 mb-3 ml-10">
+                        <h2 class="text-xl text-red-700 font-bold">المكسرات الصحية</h2>
+                        <a href="category.html" target="_blank">
+
+                            <img src="assets/images/مكسرات.avif" style="width: 100px; height: 100px;"
+                                class=" rounded-full object-cover border-2 border-red-600 hover:sepia hover:scale-[1.2] transition-all ease-in-out"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="flex items-center gap-3 mb-3 ml-10">
+                        <a href="category.html" target="_blank">
+
+                            <img src="assets/images/أطفال.avif" style="width: 100px; height: 100px;"
+                                class=" rounded-full object-cover  border-2 border-red-600 hover:sepia hover:scale-[1.2] transition-all ease-in-out"
+                                alt="">
+                        </a>
+                        <h2 class="text-xl text-red-700 font-bold"> مأكولات الأطفال</h2>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- end categories -->
+    <!-- start products section -->
+    <section
+        class="all-products md:h-[60vh] h-[30vh] mt-7 dark:bg-gradient-to-b  dark:from-slate-700 dark:to-white  bg-gradient-to-b from-orange-200 to-white md:mb-0 mb-[220px] overflow-hidden"
+       >
+        <h2 class="text-4xl font-bold text-center text-[#830008] dark:text-[#fec45c] pt-7 italic">
+            أهم أطباقنا...
+        </h2>
+        <div class="swiper max-w-screen-xl mx-auto " id="slider">
+
+            <div class="products swiper-wrapper   mt-7  ">
+
+                <div class="product  swiper-slide  cursor-pointer flex  items-center flex-col">
+                    <a href="single-post.html" target="_blank">
+
+                        <img src="assets/images/سلطة مشكلة.avif" style="width: 200px; height: 200px;"
+                            class="  rounded-full object-cover border-2 border-red-500" alt="">
+                    </a>
+                    <div class="flex flex-col mr-[40px] mt-3">
+
+                        <p class="  "> سلطة بكافة أنواع الخضار</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+
+                        </div>
+                        <div class="price   flex gap-9 items-center ">
+                            <div>
+
+                                <span>السعر:</span>
+                                <span class="text-red-900 line-through">5$</span>
+                            </div>
+
+                            <span>2$</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product  swiper-slide  cursor-pointer flex  items-center flex-col">
+                    <a href="single-post.html" target="_blank">
+
+                        <img src="assets/images/سلطة مع جبنة.avif" style="width: 200px; height: 200px;"
+                            class="  rounded-full object-cover border-2 border-red-500" alt="">
+                    </a>
+                    <div class="flex flex-col mr-[40px] mt-3">
+
+                        <p class="  "> سلطة مع جبنة</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+
+                        </div>
+                        <div class="price   flex gap-9 items-center ">
+                            <div>
+
+                                <span>السعر:</span>
+                                <span class="text-red-900 line-through">5$</span>
+                            </div>
+
+                            <span>2$</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product  swiper-slide  cursor-pointer ">
+                    <a href="single-post.html" target="_blank">
+
+                        <img src="assets/images/سايمون.avif" style="width: 200px; height: 200px;"
+                            class="  rounded-full object-cover border-2 border-red-500" alt="">
+                    </a>
+                    <div class="flex flex-col mr-[40px] mt-3">
+
+                        <p class="  "> سمك سلمون مشوي</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+
+                        </div>
+                        <div class="price   flex gap-9 items-center ">
+                            <div>
+
+                                <span>السعر:</span>
+                                <span class="text-red-900 line-through">30$</span>
+                            </div>
+
+                            <span>20$</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product  swiper-slide  cursor-pointer ">
+                    <a href="single-post.html" target="_blank">
+
+                        <img src="assets/images/ستيك لحم.avif" style="width: 200px; height: 200px;"
+                            class="  rounded-full object-cover border-2 border-red-500" alt="">
+                    </a>
+                    <div class="flex flex-col mr-[40px] mt-3">
+
+                        <p class=" "> ستيك لحم بقري</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+
+                        </div>
+                        <div class="price   flex gap-9 items-center ">
+                            <div>
+
+                                <span>السعر:</span>
+                                <span class="text-red-900 line-through">25$</span>
+                            </div>
+
+                            <span>20$</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product  swiper-slide  cursor-pointer ">
+                    <a href="single-post.html" target="_blank">
+
+                        <img src="assets/images/عصير فواكه.avif" style="width: 200px; height: 200px;"
+                            class="  rounded-full object-cover border-2 border-red-500" alt="">
+                    </a>
+                    <div class="flex flex-col mr-[40px] mt-3">
+
+                        <p class="  "> عصير فواكه طازج</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+
+                        </div>
+                        <div class="price   flex gap-9 items-center ">
+                            <div>
+
+                                <span>السعر:</span>
+                                <span class="text-red-900 line-through">10$</span>
+                            </div>
+
+                            <span>5$</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product  swiper-slide  cursor-pointer ">
+                    <a href="single-post.html" target="_blank">
+
+                        <img src="assets/images/حلويات للأطفال.avif" style="width: 200px; height: 200px;"
+                            class="  rounded-full object-cover border-2 border-red-500" alt="">
+                    </a>
+                    <div class="flex flex-col mr-[40px] mt-3">
+
+                        <p class="  "> حلويات للأطفال</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+
+                        </div>
+                        <div class="price  flex gap-9 items-center ">
+                            <div>
+
+                                <span>السعر:</span>
+                                <span class="text-red-900 line-through">20$</span>
+                            </div>
+
+                            <span>12$</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product  swiper-slide  cursor-pointer ">
+                    <a href="single-post.html" target="_blank">
+
+                        <img src="assets/images/مكسرات مشكلة.avif" style="width: 200px; height: 200px;"
+                            class="  rounded-full object-cover border-2 border-red-500" alt="">
+                    </a>
+                    <div class="flex flex-col mr-[40px] mt-3">
+
+                        <p class="  "> مكسرات مشكلة</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+
+                        </div>
+                        <div class="price   flex gap-9 items-center ">
+                            <div>
+
+                                <span>السعر:</span>
+                                <span class="text-red-900 line-through">15$</span>
+                            </div>
+
+                            <span>10$</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+    <!-- end products section -->
+    <!-- start faq section -->
+    <section class="faq mx-5 ">
+        <h2 class="text-4xl font-bold text-center overflow-hidden text-[#830008] dark:text-[#fec45c] pt-7 italic">
+            الأسئلة الأكثر شيوعاً ...
+        </h2>
+        <p class="text-center my-5 text-xl ">نهدف إلى تقديم إجابات سريعة للعديد من الأسئلة الشائعة التي قد يطرحها الزوار
+            للحصول على المعلومات بسهولة ويسر</p>
+
+
+        <div class="   grid md:grid-cols-2 grid-cols-1 items-center  gap-20 md:mx-[200px] mt-10 ">
+            <div class="faq1"
+                style="background-image: url('assets/images/check.png'); background-position: center;background-size: contain; background-repeat: no-repeat;">
+
+                <div id="accordion-open" data-accordion="open">
+                    <h2 id="accordion-open-heading-1" class="">
+                        <button type="button"
+                            class="text-red-900  text-xl font-bold flex items-center justify-between w-full p-5  rtl:text-right  border border-b-0 border-gray-200 rounded-t-xl   dark:border-gray-700   dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-open-body-1" aria-expanded="false"
+                            aria-controls="accordion-open-body-1">
+                            <span class="flex items-center"><svg class="text-blue-700 w-5 h-5 me-2 shrink-0"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                        clip-rule="evenodd"></path>
+                                </svg> هل تستخدمون مكونات عضوية؟</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-open-body-1" class="hidden" aria-labelledby="accordion-open-heading-1">
+                        <div class="p-5 border  border-gray-200 dark:border-gray-700 dark:bg-gray-900 my-1">
+                            <p class="text-xl text-black  dark:text-white"> <a
+                                    href="/docs/getting-started/introduction/"
+                                    class="text-blue-600 dark:text-blue-500 hover:underline dark:hover:bg-gray-200">
+                                </a> مطعمنا الصحي يفضل استخدام المكونات العضوية والمحلية لضمان جودة الطعام وتقليل المواد
+                                الكيميائية.</p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-open-heading-2" class="text-blue-700">
+                        <button type="button"
+                            class="flex items-center justify-between text-red-900 text-xl font-bold w-full p-5  rtl:text-right  border border-b-0 border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-open-body-2" aria-expanded="false"
+                            aria-controls="accordion-open-body-2">
+                            <span class="flex items-center"><svg class="text-blue-700 w-5 h-5 me-2 shrink-0"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                        clip-rule="evenodd"></path>
+                                </svg>هل يمكن تعديل الأطباق لتناسب النظام الغذائي الخاص بي؟</span>
+                            <svg data-accordion-icon class=" w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-open-body-2" class="hidden" aria-labelledby="accordion-open-heading-2">
+                        <div class="p-5 border  border-gray-200 dark:border-gray-700 my-1">
+                            <p class="text-xl text-black dark:text-black"> <a href="index.html"
+                                    class="text-blue-600 dark:text-blue-500 hover:underline"></a>غالبًا، مطعمنا الصحي
+                                مرن ويقبل التعديلات مثل تقليل الدهون أو استبدال مكونات معينة.</p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-open-heading-3" class="text-blue-700">
+                        <button type="button"
+                            class="text-red-900 text-xl font-bold flex items-center justify-between w-full  p-5 rtl:text-right  border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-open-body-3" aria-expanded="false"
+                            aria-controls="accordion-open-body-3">
+                            <span class="flex items-center"><svg class="text-blue-700 w-5 h-5 me-2 shrink-0"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                        clip-rule="evenodd"></path>
+                                </svg> ما هي معلومات التغذية المتاحة عن الأطعمة؟</span>
+                            <svg data-accordion-icon class=" w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-open-body-3" class="hidden" aria-labelledby="accordion-open-heading-3">
+                        <div class="p-5 border  border-gray-200 dark:border-gray-700 my-1">
+                            <p class="mb-2 text-xl text-black dark:text-black">نوفر العديد من المعلومات الغذائية عن
+                                الأطباق، مثل عدد السعرات الحرارية ومحتوى البروتين والدهون.</p>
+
+                        </div>
+                    </div>
+                    <h2 id="accordion-open-heading-4" class="text-blue-700">
+                        <button type="button"
+                            class="text-red-900 text-xl font-bold flex items-center justify-between w-full   p-5 rtl:text-right  border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-open-body-4" aria-expanded="false"
+                            aria-controls="accordion-open-body-4">
+                            <span class="flex items-center"><svg class="text-blue-700 w-5 h-5 me-2 shrink-0"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                        clip-rule="evenodd"></path>
+                                </svg> هل يوجد خيارات نباتية أو نباتية بالكامل؟</span>
+                            <svg data-accordion-icon class=" w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-open-body-4" class="hidden" aria-labelledby="accordion-open-heading-4">
+                        <div class="p-5 border  border-gray-200 dark:border-gray-700 my-1">
+                            <p class="mb-2 text-xl text-black dark:text-black"> مطعمنا الصحي يقدم خيارات نباتية ونباتية
+                                بالكامل لتلبية احتياجات مختلف الزبائن.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="faq2"
+                style="background-image: url('assets/images/snapedit_1744285921200.png'); background-position: center;background-size: contain; background-repeat: no-repeat;">
+
+                <div id="accordion-open1" data-accordion="open">
+                    <h2 id="accordion-open-heading-5" class="">
+                        <button type="button"
+                            class="text-red-900  text-xl font-bold flex items-center justify-between w-full p-5  rtl:text-right  border border-b-0 border-gray-200 rounded-t-xl   dark:border-gray-700   dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-open-body-5" aria-expanded="false"
+                            aria-controls="accordion-open-body-5">
+                            <span class="flex items-center"><svg class="text-blue-700 w-5 h-5 me-2 shrink-0"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                        clip-rule="evenodd"></path>
+                                </svg> هل يمكنني معرفة مكونات الوجبات؟ </span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-open-body-5" class="hidden" aria-labelledby="accordion-open-heading-5">
+                        <div class="p-5 border  border-gray-200 dark:border-gray-700 dark:bg-gray-900 my-1">
+                            <p class="text-xl text-black  dark:text-white"> <a
+                                    href="/docs/getting-started/introduction/"
+                                    class="text-blue-600 dark:text-blue-500 hover:underline dark:hover:bg-gray-200">
+                                </a> بالتأكيد! جميع قوائم الطعام لدينا توضح المكونات، كما يمكن لفريقنا تقديم تفاصيل
+                                إضافية عن المكونات عند الطلب.
+                            </p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-open-heading-6" class="text-blue-700">
+                        <button type="button"
+                            class="flex items-center justify-between text-red-900 text-xl font-bold w-full p-5  rtl:text-right  border border-b-0 border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-open-body-6" aria-expanded="false"
+                            aria-controls="accordion-open-body-6">
+                            <span class="flex items-center"><svg class="text-blue-700 w-5 h-5 me-2 shrink-0"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                        clip-rule="evenodd"></path>
+                                </svg>هل تقدمون وجبات خالية من الغلوتين؟ </span>
+                            <svg data-accordion-icon class=" w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-open-body-6" class="hidden" aria-labelledby="accordion-open-heading-6">
+                        <div class="p-5 border  border-gray-200 dark:border-gray-700 my-1">
+                            <p class="text-xl text-black dark:text-black"> <a href="index.html"
+                                    class="text-blue-600 dark:text-blue-500 hover:underline"></a>
+                                نعم، لدينا خيارات خالية من الغلوتين متاحة، ويمكننا أيضًا تكييف بعض الوجبات حسب
+                                احتياجاتك.
+                            </p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-open-heading-7" class="text-blue-700">
+                        <button type="button"
+                            class="text-red-900 text-xl font-bold flex items-center justify-between w-full  p-5 rtl:text-right  border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-open-body-7" aria-expanded="false"
+                            aria-controls="accordion-open-body-7">
+                            <span class="flex items-center"><svg class="text-blue-700 w-5 h-5 me-2 shrink-0"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                        clip-rule="evenodd"></path>
+                                </svg> هل يمكنني طلب وجبات للاحتفالات الخاصة أو المناسبات؟ </span>
+                            <svg data-accordion-icon class=" w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-open-body-7" class="hidden" aria-labelledby="accordion-open-heading-7">
+                        <div class="p-5 border  border-gray-200 dark:border-gray-700 my-1">
+                            <p class="mb-2 text-xl text-black dark:text-black"> بالطبع! نحن نقدم خدمة الطلبات الخاصة
+                                لمناسبات مثل حفلات الزفاف، ولقاءات الشركة، وأي احتفال آخر.
+                            </p>
+
+                        </div>
+                    </div>
+                    <h2 id="accordion-open-heading-8" class="text-blue-700">
+                        <button type="button"
+                            class="text-red-900 text-xl font-bold flex items-center justify-between w-full   p-5 rtl:text-right  border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-open-body-8" aria-expanded="false"
+                            aria-controls="accordion-open-body-8">
+                            <span class="flex items-center"><svg class="text-blue-700 w-5 h-5 me-2 shrink-0"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                        clip-rule="evenodd"></path>
+                                </svg> هل توفرون معلومات عن السعرات الحرارية والقيم الغذائية؟ </span>
+                            <svg data-accordion-icon class=" w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-open-body-8" class="hidden" aria-labelledby="accordion-open-heading-8">
+                        <div class="p-5 border  border-gray-200 dark:border-gray-700 my-1">
+                            <p class="mb-2 text-xl text-black dark:text-black"> نعم، جميع الأطعمة لدينا مصحوبة بمعلومات
+                                حول السعرات الحرارية والقيمة الغذائية، ويمكن للموظفين مساعدتك في اختيار الوجبات التي
+                                تناسب احتياجاتك.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end faq section -->
+    <!-- start statistics -->
+    <section class="h-full video-background relative mt-7 border-t-2 border-b-2 border-red-500 overflow-hidden">
+        <div class=" absolute  w-full h-full bg-[#080f207d]"></div>
+        <video src="assets/videos/chef video.mp4" id="myVideo1" autoplay muted loop></video>
+        <h2
+            class="statistics absolute md:top-[250px] md:left-[600px] top-[40px] left-[190px] md:text-4xl text-xl font-bold text-center text-[#830008] dark:text-[#fec45c] pt-7 italic">
+            احصائيات عالمية
+        </h2>
+        <div
+            class="statistics absolute md:top-0 md:left-[70px] top-0 left-[-20px] w-full h-full  max-w-screen-xl max-auto grid grid-cols-4 mt-[50px] items-center md:gap-[100px] ">
+
+            <div>
+                <img src="assets/images/hat.svg"
+                    class=" hover:sepia hover:scale-[1.2] transition-all ease-in-out w-[80px] md:w-[100px]" alt="">
+                <h2 class="text-blue-500 dark:text-white font-bold md:text-xl md:mt-3">طباخ عالمي</h2>
+                <span class="text-red-900 md:text-2xl font-bold " id="counter-display"> +5000</span>
+
+            </div>
+            <div>
+                <img src="assets/images/fish.svg"
+                    class=" hover:sepia hover:scale-[1.2] transition-all ease-in-out  w-[80px] md:w-[100px] " alt="">
+                <h2 class="text-blue-500 dark:text-white font-bold md:text-xl md:mt-3"> انتاج بحري نظيف</h2>
+                <span class="text-red-900 md:text-2xl font-bold "> +16000</span>
+            </div>
+            <div>
+                <img src="assets/images/human.svg"
+                    class=" hover:sepia hover:scale-[1.2] transition-all ease-in-out  w-[80px] md:w-[100px]" alt="">
+                <h2 class="text-blue-500 dark:text-white font-bold md:text-xl md:mt-3"> عامل في البيئة </h2>
+                <span class="text-red-900 md:text-2xl font-bold "> +50000</span>
+            </div>
+            <div>
+                <img src="assets/images//تسوق.svg"
+                    class=" hover:sepia hover:scale-[1.2] transition-all ease-in-out  w-[80px] md:w-[100px]" alt="">
+                <h2 class="text-blue-500 dark:text-white font-bold md:text-xl md:mt-3"> أكياس بيئية </h2>
+                <span class="text-red-900 md:text-2xl font-bold"> +30000</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- end statistics -->
+
+    <!-- start contact -->
+    <section class="mt-7 h-[95vh]  border-t-2 border-b-2 border-red-500  overflow-hidden relative "
+        style="background-image: url('assets/images/background4.jpg'); background-size: cover; background-repeat: no-repeat;background-position:center;">
+        <div class=" absolute  w-[100%] h-[100%] bg-[#59647f43] "></div>
+        <div
+            class="contact max-w-screen-xl max-auto grid grid-cols-1  items-center pt-[60px] md:pr-[200px] mx-11 md:mx-0 relative ">
+            <div class="contact-us flex flex-col  ">
+                <h2 class="text-4xl font-bold text-yellow-500 mr-3 md:mr-0">ابقوا معنا على تواصل</h2>
+                <p class="text-2xl font-bold text-gray-200 mr-3 md:mr-0">اذا كان لديك أي استفسار أو سؤال عن مطعمنا أو عن
+                    أطباقنا </p>
+                <p class="text-2xl font-bold text-gray-200 mr-3 md:mr-0"> تترددوا في التواصل معنا عبر <span span
+                        class="text-yellow-500 ">البريد الالكتروني</span>
+            </div>
+
+            <div class="form-contact ">
+
+
+                <div class="flex justify-start md:gap-[250px] gap-[100px] text-white text-xl my-3 relative">
+                    <div class="mb-5">
+                        <i
+                            class="fa-solid fa-star text-red-900 text-[8px] absolute top-[-5px] md:right-[35px] right-[50px]"></i>
+                        <h2 class="text-white font-bold mr-3 md:mr-0">الاسم:</h2>
+                        <input type="password" id="password"
+                            class="mr-3 md:mr-0 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none caret-red-200 focus:ring-blue-500 focus:border-blue-500 block md:w-full w-[150px] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            required />
+                    </div>
+                    <div class="mb-5 ">
+
+                        <i
+                            class="fa-solid fa-star text-red-900 text-[8px] absolute md:top-[-10px] md:right-[510px] top-[-8px] right-[320px]"></i>
+                        <h3 class="text-white font-bold ">اسم الكنية:</h3>
+                        <input type="password" id="password"
+                            class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none caret-red-200 focus:ring-blue-500 focus:border-blue-500 block  md:w-full w-[150px] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            required />
+                    </div>
+
+                </div>
+                <div class="flex justify-start md:gap-[250px] gap-[100px] text-white text-xl mb-3 relative">
+                    <div class="mb-5">
+                        <i
+                            class="fa-solid fa-star text-red-900 text-[8px] absolute  top-[-5px] md:right-[35px] right-[50px]"></i>
+                        <h2 class="text-white font-bold mr-3 md:mr-0">الموقع:</h2>
+                        <input type="password" id="password"
+                            class="mr-3 md:mr-0 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none caret-red-200 focus:ring-blue-500 focus:border-blue-500 block md:w-full w-[150px] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            required />
+                    </div>
+                    <div class="mb-5">
+
+                        <i
+                            class="fa-solid fa-star text-red-900 text-[8px] absolute md:top-[-10px] md:right-[490px] top-[-5px] right-[300px]"></i>
+                        <h3 class="text-white font-bold"> الايميل:</h3>
+                        <input type="password" id="password"
+                            class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none caret-red-200 focus:ring-blue-500 focus:border-blue-500 block md:w-full w-[150px] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            required />
+                    </div>
+
+                </div>
+                <div class="flex justify-start gap-[250px] text-white text-xl mb-3 relative">
+                    <div class="mb-5">
+                        <i class="fa-solid fa-star text-red-900 text-[8px] absolute top-[-7px] right-[60px]"></i>
+                        <h2 class="text-white font-bold mr-3">الرسالة:</h2>
+                        <textarea name="" id=""
+                            class="h-[100px] bg-white md:w-[650px] w-[400px] mr-3 md:mr-0 focus:outline-none caret-red-200 pr-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:ring-blue-500 focus:border-blue-500 block  p-2.5"></textarea>
+                    </div>
+                    <div class="mb-5">
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <ul
+                    class="items-center mr-3 md:mr-0 md:w-[650px] w-[400px] text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                    <li class=" border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="vue-checkbox-list" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm  dark:bg-gray-600 dark:border-gray-500">
+                            <label for="vue-checkbox-list"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">أنا أصرح
+                                باني قرأت و ووافقت على سياسة الخصوصية </label>
+                        </div>
+                    </li>
+
+                </ul>
+                <button
+                    class="btn md:w-[650px] w-[400px] mr-3 md:mr-1 md:mt-5 my-2 text-3xl text-white bg-gradient-to-b from-[#F05F57]  to-[#360940]  hover:bg-clip-text hover:scale-[1.7] transition-all ease-in-out hover:text-transparent hover:text-2xl">أرسل
+                    الطلب</button>
+            </div>
+
+    </section>
+    <!-- end contact -->
+
+    <footer class="  mt-7 md:p-0 p-5    "
+        style="background-image: url('assets/images/background6.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class="footer1  grid md:grid-cols-2 grid-cols-1 gap-9 md:pr-[1000px] md:pt-[100px]  overflow-hidden ">
+
+            <div class="logo1 md:translate-y-[-50px] ">
+                <a href="index.html"> <img src="assets/images/logo.png" alt=""></a>
+
+                <p class="text-gray-200 pb-9 leading-8 text-xl font-bold italic translate-y-[-50px]">يركز مطعمنا على
+                    تقديم أطباق صحية لذيذة بإستخدام مكونات عضوية وطازجة. يهدف المطعم إلى تعزيز
+                    نمط الحياة الصحي من خلال توفير خيارات غذائية متنوعة النباتية.</p>
+                <form class="flex flex-col relative top-[-25px] ">
+                    <img width="50" class="absolute left-[10px] top-[6px] w-[50px] caret-gray-200"
+                        src="assets/images/ايميل.webp" alt="">
+                    <input type="text" placeholder="البريد الالكتروني"
+                        class=" border border-gray-100 px-4 py-2 rounded-[6px] placeholder:text-gray-50 placeholder:pr-2  focus:outline-red-300 mb-2 caret-gray-300">
+                    <button
+                        class=" p-2 border-none  rounded-lg text-gray-200 text-xl bg-gradient-to-b from-[#F05F57]  to-[#360940]  hover:bg-clip-text hover:scale-[1.7] transition-all ease-in-out hover:text-transparent hover:text-2xl">اشترك
+                        الآن</button>
+                </form>
+
+
+            </div>
+            <div class="info   md:mr-0  bg-[#ebaf61a1] md:w-[220px] md:h-[550px]  ">
+                <img src="assets/images/فواكه.png" class="w-[70%] md:mr-[40px] mr-[70px] one" alt="">
+                <div class="text-white  flex flex-col text-center pt-[50px] gap-3 text-xl font-bold ">
+                    <a href="index.html"
+                        class="hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out ">الرئيسية</a>
+                    <a href="category.html"
+                        class="hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out">أصنافنا</a>
+                    <a href="#"
+                        class="hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out">من
+                        نحن؟</a>
+                    <a href="#"
+                        class="hover:underline decoration-[#820008] underline-offset-[10px] decoration-[3px] transition-all ease-in-out">تواصلوا
+                        معنا</a>
+                </div>
+                <div class="mt-[100px]   text-center  pb-5 ">
+                    <a href=""> <i
+                            class="fa-brands fa-facebook-f text-[#820008] hover:text-[#45b556] text-3xl font-bold"></i></a>
+
+                    <a href=""><i class="fa-solid fa-x text-[#820008] hover:text-[#45b556] text-3xl"></i></a>
+                    <a href=""><i
+                            class="fa-brands fa-youtube text-[#820008] hover:text-[#6ab545] text-3xl font-bold "></i></a>
+                    <a href=""><i
+                            class="fa-brands fa-linkedin text-[#820008] hover:text-[#6ab545] text-3xl font-bold"></i></a>
+                    <a href=""><i
+                            class="fa-brands fa-instagram text-[#820008] hover:text-[#6ab545] text-3xl font-bold"></i></a>
+                </div>
+                <div>
+                    <p class="text-gray-200 text-center  md:text-[14px] text-xl mb-5 md:mb-0">كافة الحقوق محفوظة © لمطعم
+                        فارمرز ماركت</p>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <!-- offcanvas عند فتح الموقع و له جافا سكريبت -->
+
+    <!-- زر لتفعيل offcanvas (يمكن استخدامه لاحقًا) -->
+
+    <!-- عنصر offcanvas -->
+    <div id="offcanvas"
+        class="absolute md:right-[700px] right-[100px]  md:top-[200px] top-[100px]   md:inset-0 bg-opacity-75 z-[6000] hidden md:flex items-center rounded-[15px]
+         md:w-[500px] w-[300px] h-[450px] md:h-[600px] "
+        style="background-image: url('assets/images/features.png');background-position: center;background-size: cover; background-repeat: no-repeat; "
+        aria-hidden="true">
+        <div class="bg-[#12080839] md:w-100 w-50 md:p-4 p-0 translate-x-[-50px] translate-y-[-10px] px-2 md:px-0  ">
+            <button id="closeButton" class="mb-4 dark:text-red-500 text-blue-500  text-2xl font-bold">إغلاق</button>
+
+
+            <form class="md:max-w-smmd:mx-auto">
+                <div class="mb-5">
+                    <label for="email" class="block mb-2 md:text-xl font-medium  text-white">عنوان البريد
+                        الالكتروني</label>
+                    <input type="email" id="email"
+                        class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light"
+                        placeholder="name@gmail.com" required />
+                </div>
+                <div class="mb-5">
+                    <label for="password" class="block mb-2 md:text-xl font-medium  text-white">كلمة السر </label>
+                    <input type="password" id="password"
+                        class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light"
+                        required />
+                </div>
+                <div class="mb-5">
+                    <label for="repeat-password" class="block mb-2 md:text-xl font-medium  text-white">كرر كلمة السر
+                    </label>
+                    <input type="password" id="repeat-password"
+                        class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light"
+                        required />
+                </div>
+                <div class="flex items-start mb-5">
+                    <div class="flex items-center h-5">
+                        <input id="terms" type="checkbox" value=""
+                            class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50  dark:bg-gray-700 dark:border-gray-600  "
+                            required />
+                    </div>
+                    <label for="terms" class="ms-2 md:text-xl font-medium text-white ">أنا أتفق مع شروط الخصوصية<a
+                            href="#" class="text-blue-600 hover:underline dark:text-blue-500"> </a></label>
+                </div>
+                <button type="submit"
+                    class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                    ارسال</button>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+
+<script src="assets/js/swiper.js"></script>
+<script src="assets/js/scrollreveal.js"></script>
+<script src="assets/js/flowbite.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
